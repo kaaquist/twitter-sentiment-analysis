@@ -8,5 +8,4 @@ curl -XPOST 'localhost:9200/_bulk' -d '
 { "index" : { "_index" : ".kibana", "_type" : "visualization", "_id" : "Tweets-count" } }
 {"title":"Tweets count","visState":"{\"type\":\"metric\",\"params\":{\"fontSize\":60},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{}}],\"listeners\":{}}","description":"","savedSearchId":"All-tweets","version":1,"kibanaSavedObjectMeta":{"searchSourceJSON":"{\"filter\":[]}"}}}
 { "index" : { "_index" : ".kibana", "_type" : "dashboard", "_id" : "Overview" } }
-{ "title":"Overview","hits":0,"description":"","panelsJSON":"[{\"id\":\"Tweets-count\",\"type\":\"visualization\",\"size_x\":3,\"size_y\":2,\"col\":1,\"row\":1}]","version":1,"kibanaSavedObjectMeta":{"searchSourceJSON":"{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"}}
-'
+{ "title":"Overview","hits":0,"description":"","panelsJSON":"[{\"id\":\"Tweets-count\",\"type\":\"visualization\",\"size_x\":3,\"size_y\":2,\"col\":1,\"row\":1}]","version":1,"kibanaSavedObjectMeta":{"searchSourceJSON":"{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"}}'

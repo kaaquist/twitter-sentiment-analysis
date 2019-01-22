@@ -2,7 +2,7 @@ package com.github.vspiewak.util
 
 import org.scalatest._
 
-class StringUtilsSpec extends FunSpec with ShouldMatchers {
+class StringUtilsSpec extends FunSpec with Matchers {
 
   describe("A String utility class") {
 

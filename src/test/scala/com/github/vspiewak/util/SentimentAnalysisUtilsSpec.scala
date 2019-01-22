@@ -1,9 +1,9 @@
 package com.github.vspiewak.util
 
 import com.github.vspiewak.util.SentimentAnalysisUtils._
-import org.scalatest.{FunSpec, ShouldMatchers}
+import org.scalatest.{FunSpec, Matchers}
 
-class SentimentAnalysisUtilsSpec extends FunSpec with ShouldMatchers {
+class SentimentAnalysisUtilsSpec extends FunSpec with Matchers {
 
   /*
         checkSentiment("Radek is a really good football player");
